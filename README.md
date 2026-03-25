@@ -1,22 +1,19 @@
 # Cardputer-Adv
 
-BLE 从机 - 连接 S3R-M12 主机
+M5Stack Cardputer 作为 BLE 从机（Central）固件
 
 ## 功能
-- 扫描连接主机 S3R-M12
-- 接收主机发送的时间数据
+- BLE 从机 - 扫描并连接 Atom S3R 主机
+- 接收并显示时间信息
 - 显示连接状态
 
 ## 硬件
-- M5Stack Cardputer ADV
-- ESP32-S3-N8
+- M5Stack Cardputer (ESP32-S3-N8)
 
 ## 软件
 - PlatformIO
-- M5Cardputer + NimBLE-Arduino
+- M5Unified
 
-## 主机
-- AtomS3R-M12 (广播 S3R-M12)
-
-## 版本
-- v1.0.0: 初始版本
+## BLE 配置
+- 扫描设备名: S3R-M12
+- Service UUID: 6e400001-b5a3-f393-e0a9-e50e24dcca9e

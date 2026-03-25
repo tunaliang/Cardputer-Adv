@@ -1,1 +1,265 @@
-LyoKICogQ2FyZHB1dGVyIEFEViAtIEJMRSBTbGF2ZSAo5a6i5oi356uvKQogKiDov57mjqXliLAgUzNSLU0xMiDlubbmmL7npLrmjqXmlLbliLDnmoTml7bpl7QKICovCgojaW5jbHVkZSA8QXJkdWluby5oPgojaW5jbHVkZSA8TTVDYXJkcHV0ZXIuaD4KI2luY2x1ZGUgPE01VW5pZmllZC5oPgojaW5jbHVkZSA8TmltQkxFRGV2aWNlLmg+CgovLyBCTEUg6YWN572uIC0g6L+e5o6l5YiwIFMzUi1NMTIKI2RlZmluZSBUQVJHRVRfREVWSUNFX05BTUUgIlMzUi1NMTIiCiNkZWZpbmUgU0VSVklDRV9VVUlEICI2ZTQwMDAwMS1iNWEzLWYzOTMtZTBhOS1lNTBlMjRkY2NhOWUiCiNkZWZpbmUgQ0hBUkFDVEVSSVNUSUNfVVVJRF9UWCAiNmU0MDAwMDMtYjVhMy1mMzkzLWUwYTktZTUwZTI0ZGNjYTllIgoKc3RhdGljIEJMRUNsaWVudCogcENsaWVudCA9IG51bGxwdHI7CnN0YXRpYyBCTEVSZW1vdGVTZXJ2aWNlKiBwUmVtb3RlU2VydmljZSA9IG51bGxwdHI7CnN0YXRpYyBCTEVSZW1vdGVDaGFyYWN0ZXJpc3RpYyogcFJlbW90ZVR4Q2hhcmFjdGVyaXN0aWMgPSBudWxscHRyOwoKYm9vbCBjb25uZWN0ZWQgPSBmYWxzZTsKU3RyaW5nIHJlY2VpdmVkVGltZSA9ICJXYWl0aW5nLi4uIjsKaW50IHJlY29ubmVjdEF0dGVtcHRzID0gMDsKY29uc3QgaW50IE1BWF9SRUNPTk5FQ1QgPSA1OwoKLy8g5bGP5bmV54q25oCBCmVudW0gU2NyZWVuU3RhdGUgewogIFNDQU4sCiAgQ09OTkVDVElORywKICBDT05ORUNURUQsCiAgRkFJTEVECn07CgpTY3JlZW5TdGF0ZSBjdXJyZW50U3RhdGUgPSBTQ0FOOwoKdm9pZCBkcmF3U2NyZWVuKCk7CgpjbGFzcyBNeUNsaWVudENhbGxiYWNrIDogcHVibGljIEJMRUNsaWVudENhbGxiYWNrcyB7CiAgdm9pZCBvbkNvbm5lY3QoQkxFQ2xpZW50KiBwY2xpZW50KSB7CiAgICBTZXJpYWwucHJpbnRsbigiQ29ubmVjdGVkIHRvIHNlcnZlciIpOwogICAgY29ubmVjdGVkID0gdHJ1ZTsKICAgIHJlY29ubmVjdEF0dGVtcHRzID0gMDsKICAgIGN1cnJlbnRTdGF0ZSA9IENPTk5FQ1RFRDsKICAgIGRyYXdTY3JlZW4oKTsKICB9CgogIHZvaWQgb25EaXNjb25uZWN0KEJMRUNsaWVudCogcGNsaWVudCkgewogICAgU2VyaWFsLnByaW50bG4oIkRpc2Nvbm5lY3RlZCBmcm9tIHNlcnZlciIpOwogICAgY29ubmVjdGVkID0gZmFsc2U7CiAgICBjdXJyZW50U3RhdGUgPSBTQ0FOOwogICAgZHJhd1NjcmVlbigpOwogIH0KfTsKCi8vIFJYIOWbnuiwgyAtIOaOpeaUtuaXtumXtOaVsOaNrgp2b2lkIG5vdGlmeUNhbGxiYWNrKEJMRVJlbW90ZUNoYXJhY3RlcmlzdGljKiBwQkxFUmVtb3RlQ2hhcmFjdGVyaXN0aWMsIHVpbnQ4X3QqIHBEYXRhLCBzaXplX3QgbGVuZ3RoLCBib29sIGlzTm90aWZ5KSB7CiAgU3RyaW5nIGRhdGEgPSAiIjsKICBmb3IgKHNpemVfdCBpID0gMDsgaSA8IGxlbmd0aDsgaSsrKSB7CiAgICBkYXRhICs9IChjaGFyKXBEYXRhW2ldOwogIH0KICAKICBTZXJpYWwucHJpbnQoIlJYOiAiKTsKICBTZXJpYWwucHJpbnRsbihkYXRhKTsKICAKICByZWNlaXZlZFRpbWUgPSBkYXRhOwogIGN1cnJlbnRTdGF0ZSA9IENPTk5FQ1RFRDsKICBkcmF3U2NyZWVuKCk7Cn0KCnZvaWQgc2V0dXAoKSB7CiAgU2VyaWFsLmJlZ2luKDExNTIwMCk7CiAgZGVsYXkoMTAwMCk7CiAgU2VyaWFsLnByaW50bG4oIlxuPT09PT09PT09PSBDYXJkcHV0ZXIgQURWIEJMRSBTdGFydCA9PT09PT09PT09Iik7CiAgCiAgLy8gTTVDYXJkcHV0ZXIg5Yid5aeL5YyWCiAgYXV0byBjZmcgPSBNNS5jb25maWcoKTsKICBjZmcuZmFsbGJhY2tfYm9hcmQgPSBtNWdmeDo6Ym9hcmRfdDo6Ym9hcmRfTTVDYXJkcHV0ZXJBRFY7CiAgTTVDYXJkcHV0ZXIuYmVnaW4oY2ZnKTsKICAKICAvLyDlvIDlkK/og4zlhYnvvIjkuq7luqbkuIDljYrvvIkKICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldEJyaWdodG5lc3MoMTI3KTsKICAKICAvLyDlsY/luZXml4vovazvvIjmqKrlsY/vvIkKICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldFJvdGF0aW9uKDEpOwogIAogIFNlcmlhbC5wcmludGYoIlNjcmVlbjogJWQgeCAlZFxuIiwgTTVDYXJkcHV0ZXIuRGlzcGxheS53aWR0aCgpLCBNNUNhcmRwdXRlci5EaXNwbGF5LmhlaWdodCgpKTsKICAKICBkcmF3U2NyZWVuKCk7CiAgCiAgLy8g5Yid5aeL5YyWIE5pbUJMRQogIEJMRURldmljZTo6aW5pdCgiQ2FyZHB1dGVyLUNsaWVudCIpOwogIFNlcmlhbC5wcmludGxuKCJCTEUgQ2xpZW50IGluaXRpYWxpemVkIik7CiAgCiAgLy8g5byA5aeL5omr5o+PCiAgc3RhcnRTY2FuKCk7Cn0KCnZvaWQgc3RhcnRTY2FuKCkgewogIFNlcmlhbC5wcmludGxuKCJTY2FubmluZyBmb3IgUzNSLU0xMi4uLiIpOwogIGN1cnJlbnRTdGF0ZSA9IFNDQU47CiAgZHJhd1NjcmVlbigpOwogIAogIE5pbUJMRVNjYW4qIHBTY2FuID0gQkxFRGV2aWNlOjpnZXRTY2FuKCk7CiAgcFNjYW4tPnNldEFjdGl2ZVNjYW4odHJ1ZSk7CiAgcFNjYW4tPnN0YXJ0KDMsIHRydWUpOwp9Cgp2b2lkIGNvbm5lY3RUb1NlcnZlcihCTEVBZHZlcnRpc2VkRGV2aWNlJiBkZXZpY2UpIHsKICBTZXJpYWwucHJpbnRsbigiRm91bmQgUzNSLU0xMiEgQ29ubmVjdGluZy4uLiIpOwogIGN1cnJlbnRTdGF0ZSA9IENPTk5FQ1RJTkc7CiAgZHJhd1NjcmVlbigpOwogIAogIHBDbGllbnQgPSBCTEVEZXZpY2U6OmNyZWF0ZUNsaWVudCgpOwogIHBDbGllbnQtPnNldENsaWVudENhbGxiYWNrcyhuZXcgTXlDbGllbnRDYWxsYmFjaygpKTsKICBwQ2xpZW50LT5jb25uZWN0KCZkZXZpY2UpOwogIGRlbGF5KDEwMDApOwogIAogIGlmIChwQ2xpZW50LT5pc0Nvbm5lY3RlZCgpKSB7CiAgICBTZXJpYWwucHJpbnRsbigiQ29ubmVjdGVkIHRvIEJMRSBTZXJ2ZXIiKTsKICAgIHBSZW1vdGVTZXJ2aWNlID0gcENsaWVudC0+Z2V0U2VydmljZShOaW1CTEVVVUlEKFNFUlZJQ0VfVVVJRCkpOwogICAgaWYgKHBSZW1vdGVTZXJ2aWNlICE9IG51bGxwdHIpIHsKICAgICAgcFJlbW90ZVR4Q2hhcmFjdGVyaXN0aWMgPSBwUmVtb3RlU2VydmljZS0+Z2V0Q2hhcmFjdGVyaXN0aWMoTmltQkxFVVVJRChDSEFSQUNURVJJU1RJQ19VVUlEX1RYKSk7CiAgICAgIGlmIChwUmVtb3RlVHhDaGFyYWN0ZXJpc3RpYyAhPSBudWxscHRyICYmIHBSZW1vdGVUeENoYXJhY3RlcmlzdGljLT5jYW5Ob3RpZnkoKSkgewogICAgICAgIHBSZW1vdGVUeENoYXJhY3RlcmlzdGljLT5zdWJzY3JpYmUodHJ1ZSwgbm90aWZ5Q2FsbGJhY2spOwogICAgICAgIFNlcmlhbC5wcmludGxuKCJTdWJzY3JpYmVkIHRvIG5vdGlmaWNhdGlvbnMiKTsKICAgICAgfQogICAgfQogICAgY29ubmVjdGVkID0gdHJ1ZTsKICAgIGN1cnJlbnRTdGF0ZSA9IENPTk5FQ1RFRDsKICAgIHJlY29ubmVjdEF0dGVtcHRzID0gMDsKICB9IGVsc2UgewogICAgU2VyaWFsLnByaW50bG4oIkZhaWxlZCB0byBjb25uZWN0Iik7CiAgICBjdXJyZW50U3RhdGUgPSBGQUlMRUQ7CiAgICByZWNvbm5lY3RBdHRlbXB0cysrOwogIH0KICBkcmF3U2NyZWVuKCk7Cn0KCnZvaWQgZHJhd1NjcmVlbigpIHsKICBpbnQgdyA9IE01Q2FyZHB1dGVyLkRpc3BsYXkud2lkdGgoKTsKICBpbnQgaCA9IE01Q2FyZHB1dGVyLkRpc3BsYXkuaGVpZ2h0KCk7CiAgCiAgTTVDYXJkcHV0ZXIuRGlzcGxheS5maWxsU2NyZWVuKEJMQUNLKTsKICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldFRleHREYXR1bSh0b3BfbGVmdCk7CiAgCiAgLy8g5qCH6aKYCiAgTTVDYXJkcHV0ZXIuRGlzcGxheS5zZXRUZXh0Q29sb3IoR1JFRU4pOwogIE01Q2FyZHB1dGVyLkRpc3BsYXkuc2V0VGV4dFNpemUoMSk7CiAgTTVDYXJkcHV0ZXIuRGlzcGxheS5kcmF3U3RyaW5nKCJCTEUgQ2xpZW50IiwgNSwgNSk7CiAgCiAgLy8g55uu5qCH6K6+5aSHCiAgTTVDYXJkcHV0ZXIuRGlzcGxheS5zZXRUZXh0Q29sb3IoV0hJVEUpOwogIE01Q2FyZHB1dGVyLkRpc3BsYXkuZHJhd1N0cmluZygiVGFyZ2V0OiIsIDUsIDIwKTsKICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldFRleHRDb2xvcihDWUFOKTsKICBNNUNhcmRwdXRlci5EaXNwbGF5LmRyYXdTdHJpbmcoVEFSR0VUX0RFVklDRV9OQU1FLCA1NSwgMjApOwogIAogIC8vIOi/nuaOpeeKtuaAgQogIE01Q2FyZHB1dGVyLkRpc3BsYXkuc2V0VGV4dENvbG9yKFdISVRFKTsKICBNNUNhcmRwdXRlci5EaXNwbGF5LmRyYXdTdHJpbmcoIlN0YXR1czoiLCA1LCAzNSk7CiAgCiAgc3dpdGNoIChjdXJyZW50U3RhdGUpIHsKICAgIGNhc2UgU0NBTjoKICAgICAgTTVDYXJkcHV0ZXIuRGlzcGxheS5zZXRUZXh0Q29sb3IoWUVMTE9XKTsKICAgICAgTTVDYXJkcHV0ZXIuRGlzcGxheS5kcmF3U3RyaW5nKCJTY2FubmluZy4uLiIsIDU1LCAzNSk7CiAgICAgIGJyZWFrOwogICAgY2FzZSBDT05ORUNUSU5HOgogICAgICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldFRleHRDb2xvcihPUkFOR0UpOwogICAgICBNNUNhcmRwdXRlci5EaXNwbGF5LmRyYXdTdHJpbmcoIkNvbm5lY3RpbmcuLi4iLCA1NSwgMzUpOwogICAgICBicmVhazsKICAgIGNhc2UgQ09OTkVDVEVEOgogICAgICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldFRleHRDb2xvcihHUkVFTik7CiAgICAgIE01Q2FyZHB1dGVyLkRpc3BsYXkuZHJhd1N0cmluZygiQ29ubmVjdGVkIiwgNTUsIDM1KTsKICAgICAgYnJlYWs7CiAgICBjYXNlIEZBSUxFRDoKICAgICAgTTVDYXJkcHV0ZXIuRGlzcGxheS5zZXRUZXh0Q29sb3IoUkVEKTsKICAgICAgTTVDYXJkcHV0ZXIuRGlzcGxheS5kcmF3U3RyaW5nKCJGYWlsZWQiLCA1NSwgMzUpOwogICAgICBicmVhazsKICB9CiAgCiAgLy8g5YiG5Ymy57q/CiAgTTVDYXJkcHV0ZXIuRGlzcGxheS5kcmF3TGluZSg1LCA1MCwgdy01LCA1MCwgMHg3QkVGKTsKICAKICAvLyDmjqXmlLbliLDnmoTmlbDmja4KICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldFRleHRDb2xvcihXSElURSk7CiAgTTVDYXJkcHV0ZXIuRGlzcGxheS5kcmF3U3RyaW5nKCJSZWNlaXZlZDoiLCA1LCA1OCk7CiAgCiAgLy8g6Kej5p6Q5bm25pi+56S65pe26Ze0CiAgaWYgKHJlY2VpdmVkVGltZS5zdGFydHNXaXRoKCJUaW1lOiIpKSB7CiAgICBpbnQgdGltZVN0YXJ0ID0gcmVjZWl2ZWRUaW1lLmluZGV4T2YoIlRpbWU6IikgKyA1OwogICAgaW50IHRpbWVFbmQgPSByZWNlaXZlZFRpbWUuaW5kZXhPZigiXG4iLCB0aW1lU3RhcnQpOwogICAgaWYgKHRpbWVFbmQgPT0gLTEpIHRpbWVFbmQgPSByZWNlaXZlZFRpbWUubGVuZ3RoKCk7CiAgICAKICAgIFN0cmluZyB0aW1lU3RyID0gcmVjZWl2ZWRUaW1lLnN1YnN0cmluZyh0aW1lU3RhcnQsIHRpbWVFbmQpOwogICAgdGltZVN0ci50cmltKCk7CiAgICAKICAgIC8vIOWkp+Wtl+aYvuekuuaXtumXtAogICAgTTVDYXJkcHV0ZXIuRGlzcGxheS5zZXRUZXh0Q29sb3IoV0hJVEUpOwogICAgTTVDYXJkcHV0ZXIuRGlzcGxheS5zZXRUZXh0U2l6ZSgyKTsKICAgIE01Q2FyZHB1dGVyLkRpc3BsYXkuZHJhd1N0cmluZyh0aW1lU3RyLCA1LCA3NSk7CiAgICAKICAgIC8vIOaYvuekuuWujOaVtOS/oeaBr++8iFdpRmnnirbmgIHnrYnvvIkKICAgIE01Q2FyZHB1dGVyLkRpc3BsYXkuc2V0VGV4dFNpemUoMSk7CiAgICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldFRleHRDb2xvcigweEFENTUpOwogICAgCiAgICBpbnQgeSA9IDEwNTsKICAgIGludCBsaW5lU3RhcnQgPSAwOwogICAgU3RyaW5nIHJlc3QgPSByZWNlaXZlZFRpbWUuc3Vic3RyaW5nKHRpbWVFbmQgKyAxKTsKICAgIHJlc3QudHJpbSgpOwogICAgCiAgICBpZiAocmVzdC5sZW5ndGgoKSA+IDApIHsKICAgICAgTTVDYXJkcHV0ZXIuRGlzcGxheS5kcmF3U3RyaW5nKHJlc3QsIDUsIHkpOwogICAgfQogIH0gZWxzZSB7CiAgICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldFRleHRDb2xvcigweDg0MTApOwogICAgTTVDYXJkcHV0ZXIuRGlzcGxheS5kcmF3U3RyaW5nKHJlY2VpdmVkVGltZSwgNSwgNzUpOwogIH0KICAKICAvLyDph43or5XmrKHmlbAKICBpZiAocmVjb25uZWN0QXR0ZW1wdHMgPiAwKSB7CiAgICBNNUNhcmRwdXRlci5EaXNwbGF5LnNldFRleHRDb2xvcihSRUQpOwogICAgTTVDYXJkcHV0ZXIuRGlzcGxheS5zZXRUZXh0U2l6ZSgxKTsKICAgIE01Q2FyZHB1dGVyLkRpc3BsYXkuZHJhd1N0cmluZygiUmV0cmllczogIiArIFN0cmluZyhyZWNvbm5lY3RBdHRlbXB0cyksIDUsIGggLSAxMCk7CiAgfQp9Cgp2b2lkIGxvb3AoKSB7CiAgTTVDYXJkcHV0ZXIudXBkYXRlKCk7CiAgCiAgaWYgKCFjb25uZWN0ZWQgJiYgcmVjb25uZWN0QXR0ZW1wdHMgPCBNQVhfUkVDT05ORUNUKSB7CiAgICBOaW1CTEVTY2FuUmVzdWx0cyByZXN1bHRzID0gQkxFRGV2aWNlOjpnZXRTY2FuKCktPmdldFJlc3VsdHMoKTsKICAgIAogICAgZm9yIChpbnQgaSA9IDA7IGkgPCByZXN1bHRzLmdldENvdW50KCk7IGkrKykgewogICAgICBCTEVBZHZlcnRpc2VkRGV2aWNlIGRldmljZSA9IHJlc3VsdHMuZ2V0RGV2aWNlKGkpOwogICAgICBTdHJpbmcgbmFtZSA9IGRldmljZS5nZXROYW1lKCkuY19zdHIoKTsKICAgICAgCiAgICAgIFNlcmlhbC5wcmludGYoIkZvdW5kOiAlc1xuIiwgbmFtZS5jX3N0cigpKTsKICAgICAgCiAgICAgIGlmIChuYW1lID09IFRBUkdFVF9ERVZJQ0VfTkFNRSkgewogICAgICAgIEJMRURldmljZTo6Z2V0U2NhbigpLT5zdG9wKCk7CiAgICAgICAgY29ubmVjdFRvU2VydmVyKGRldmljZSk7CiAgICAgICAgYnJlYWs7CiAgICAgIH0KICAgIH0KICAgIAogICAgaWYgKCFjb25uZWN0ZWQpIHsKICAgICAgQkxFRGV2aWNlOjpnZXRTY2FuKCktPmNsZWFyUmVzdWx0cygpOwogICAgICBkZWxheSg1MDApOwogICAgfQogIH0gZWxzZSBpZiAocmVjb25uZWN0QXR0ZW1wdHMgPj0gTUFYX1JFQ09OTkVDVCkgewogICAgY3VycmVudFN0YXRlID0gRkFJTEVEOwogICAgZHJhd1NjcmVlbigpOwogICAgZGVsYXkoMzAwMCk7CiAgICByZWNvbm5lY3RBdHRlbXB0cyA9IDA7CiAgfQogIAogIGlmIChjb25uZWN0ZWQgJiYgcENsaWVudCAhPSBudWxscHRyKSB7CiAgICBpZiAoIXBDbGllbnQtPmlzQ29ubmVjdGVkKCkpIHsKICAgICAgU2VyaWFsLnByaW50bG4oIkNvbm5lY3Rpb24gbG9zdCIpOwogICAgICBjb25uZWN0ZWQgPSBmYWxzZTsKICAgICAgY3VycmVudFN0YXRlID0gU0NBTjsKICAgICAgZHJhd1NjcmVlbigpOwogICAgfQogIH0KICAKICBkZWxheSgxMDApOwp9Cg==
+/*
+ * Cardputer ADV - BLE Slave (客户端)
+ * 连接到 S3R-M12 并显示接收到的时间
+ */
+
+#include <Arduino.h>
+#include <M5Cardputer.h>
+#include <M5Unified.h>
+#include <NimBLEDevice.h>
+
+// BLE 配置 - 连接到 S3R-M12
+#define TARGET_DEVICE_NAME "S3R-M12"
+#define SERVICE_UUID "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
+#define CHARACTERISTIC_UUID_TX "6e400003-b5a3-f393-e0a9-e50e24dcca9e"
+
+static BLEClient* pClient = nullptr;
+static BLERemoteService* pRemoteService = nullptr;
+static BLERemoteCharacteristic* pRemoteTxCharacteristic = nullptr;
+
+bool connected = false;
+String receivedTime = "Waiting...";
+int reconnectAttempts = 0;
+const int MAX_RECONNECT = 5;
+
+// 屏幕状态
+enum ScreenState {
+  SCAN,
+  CONNECTING,
+  CONNECTED,
+  FAILED
+};
+
+ScreenState currentState = SCAN;
+
+void drawScreen();
+
+class MyClientCallback : public BLEClientCallbacks {
+  void onConnect(BLEClient* pclient) {
+    Serial.println("Connected to server");
+    connected = true;
+    reconnectAttempts = 0;
+    currentState = CONNECTED;
+    drawScreen();
+  }
+
+  void onDisconnect(BLEClient* pclient) {
+    Serial.println("Disconnected from server");
+    connected = false;
+    currentState = SCAN;
+    drawScreen();
+  }
+};
+
+// RX 回调 - 接收时间数据
+void notifyCallback(BLERemoteCharacteristic* pBLERemoteCharacteristic, uint8_t* pData, size_t length, bool isNotify) {
+  String data = "";
+  for (size_t i = 0; i < length; i++) {
+    data += (char)pData[i];
+  }
+  
+  Serial.print("RX: ");
+  Serial.println(data);
+  
+  receivedTime = data;
+  currentState = CONNECTED;
+  drawScreen();
+}
+
+void setup() {
+  Serial.begin(115200);
+  delay(1000);
+  Serial.println("\n========== Cardputer ADV BLE Start ==========");
+  
+  // M5Cardputer 初始化
+  auto cfg = M5.config();
+  cfg.fallback_board = m5gfx::board_t::board_M5CardputerADV;
+  M5Cardputer.begin(cfg);
+  
+  // 开启背光（亮度一半）
+  M5Cardputer.Display.setBrightness(127);
+  
+  // 屏幕旋转（横屏）
+  M5Cardputer.Display.setRotation(1);
+  
+  Serial.printf("Screen: %d x %d\n", M5Cardputer.Display.width(), M5Cardputer.Display.height());
+  
+  drawScreen();
+  
+  // 初始化 NimBLE
+  BLEDevice::init("Cardputer-Client");
+  Serial.println("BLE Client initialized");
+  
+  // 开始扫描
+  startScan();
+}
+
+void startScan() {
+  Serial.println("Scanning for S3R-M12...");
+  currentState = SCAN;
+  drawScreen();
+  
+  NimBLEScan* pScan = BLEDevice::getScan();
+  pScan->setActiveScan(true);
+  pScan->start(3, true);
+}
+
+void connectToServer(BLEAdvertisedDevice& device) {
+  Serial.println("Found S3R-M12! Connecting...");
+  currentState = CONNECTING;
+  drawScreen();
+  
+  pClient = BLEDevice::createClient();
+  pClient->setClientCallbacks(new MyClientCallback());
+  pClient->connect(&device);
+  delay(1000);
+  
+  if (pClient->isConnected()) {
+    Serial.println("Connected to BLE Server");
+    pRemoteService = pClient->getService(NimBLEUUID(SERVICE_UUID));
+    if (pRemoteService != nullptr) {
+      pRemoteTxCharacteristic = pRemoteService->getCharacteristic(NimBLEUUID(CHARACTERISTIC_UUID_TX));
+      if (pRemoteTxCharacteristic != nullptr && pRemoteTxCharacteristic->canNotify()) {
+        pRemoteTxCharacteristic->subscribe(true, notifyCallback);
+        Serial.println("Subscribed to notifications");
+      }
+    }
+    connected = true;
+    currentState = CONNECTED;
+    reconnectAttempts = 0;
+  } else {
+    Serial.println("Failed to connect");
+    currentState = FAILED;
+    reconnectAttempts++;
+  }
+  drawScreen();
+}
+
+void drawScreen() {
+  int w = M5Cardputer.Display.width();
+  int h = M5Cardputer.Display.height();
+  
+  M5Cardputer.Display.fillScreen(BLACK);
+  M5Cardputer.Display.setTextDatum(top_left);
+  
+  // 标题
+  M5Cardputer.Display.setTextColor(GREEN);
+  M5Cardputer.Display.setTextSize(1);
+  M5Cardputer.Display.drawString("BLE Client", 5, 5);
+  
+  // 目标设备
+  M5Cardputer.Display.setTextColor(WHITE);
+  M5Cardputer.Display.drawString("Target:", 5, 20);
+  M5Cardputer.Display.setTextColor(CYAN);
+  M5Cardputer.Display.drawString(TARGET_DEVICE_NAME, 55, 20);
+  
+  // 连接状态
+  M5Cardputer.Display.setTextColor(WHITE);
+  M5Cardputer.Display.drawString("Status:", 5, 35);
+  
+  switch (currentState) {
+    case SCAN:
+      M5Cardputer.Display.setTextColor(YELLOW);
+      M5Cardputer.Display.drawString("Scanning...", 55, 35);
+      break;
+    case CONNECTING:
+      M5Cardputer.Display.setTextColor(ORANGE);
+      M5Cardputer.Display.drawString("Connecting...", 55, 35);
+      break;
+    case CONNECTED:
+      M5Cardputer.Display.setTextColor(GREEN);
+      M5Cardputer.Display.drawString("Connected", 55, 35);
+      break;
+    case FAILED:
+      M5Cardputer.Display.setTextColor(RED);
+      M5Cardputer.Display.drawString("Failed", 55, 35);
+      break;
+  }
+  
+  // 分割线
+  M5Cardputer.Display.drawLine(5, 50, w-5, 50, 0x7BEF);
+  
+  // 接收到的数据
+  M5Cardputer.Display.setTextColor(WHITE);
+  M5Cardputer.Display.drawString("Received:", 5, 58);
+  
+  // 解析并显示时间
+  if (receivedTime.startsWith("Time:")) {
+    int timeStart = receivedTime.indexOf("Time:") + 5;
+    int timeEnd = receivedTime.indexOf("\n", timeStart);
+    if (timeEnd == -1) timeEnd = receivedTime.length();
+    
+    String timeStr = receivedTime.substring(timeStart, timeEnd);
+    timeStr.trim();
+    
+    // 大字显示时间
+    M5Cardputer.Display.setTextColor(WHITE);
+    M5Cardputer.Display.setTextSize(2);
+    M5Cardputer.Display.drawString(timeStr, 5, 75);
+    
+    // 显示完整信息（WiFi状态等）
+    M5Cardputer.Display.setTextSize(1);
+    M5Cardputer.Display.setTextColor(0xAD55);
+    
+    int y = 105;
+    int lineStart = 0;
+    String rest = receivedTime.substring(timeEnd + 1);
+    rest.trim();
+    
+    if (rest.length() > 0) {
+      M5Cardputer.Display.drawString(rest, 5, y);
+    }
+  } else {
+    M5Cardputer.Display.setTextColor(0x8410);
+    M5Cardputer.Display.drawString(receivedTime, 5, 75);
+  }
+  
+  // 重试次数
+  if (reconnectAttempts > 0) {
+    M5Cardputer.Display.setTextColor(RED);
+    M5Cardputer.Display.setTextSize(1);
+    M5Cardputer.Display.drawString("Retries: " + String(reconnectAttempts), 5, h - 10);
+  }
+}
+
+void loop() {
+  M5Cardputer.update();
+  
+  if (!connected && reconnectAttempts < MAX_RECONNECT) {
+    NimBLEScanResults results = BLEDevice::getScan()->getResults();
+    
+    for (int i = 0; i < results.getCount(); i++) {
+      BLEAdvertisedDevice device = results.getDevice(i);
+      String name = device.getName().c_str();
+      
+      Serial.printf("Found: %s\n", name.c_str());
+      
+      if (name == TARGET_DEVICE_NAME) {
+        BLEDevice::getScan()->stop();
+        connectToServer(device);
+        break;
+      }
+    }
+    
+    if (!connected) {
+      BLEDevice::getScan()->clearResults();
+      delay(500);
+    }
+  } else if (reconnectAttempts >= MAX_RECONNECT) {
+    currentState = FAILED;
+    drawScreen();
+    delay(3000);
+    reconnectAttempts = 0;
+  }
+  
+  if (connected && pClient != nullptr) {
+    if (!pClient->isConnected()) {
+      Serial.println("Connection lost");
+      connected = false;
+      currentState = SCAN;
+      drawScreen();
+    }
+  }
+  
+  delay(100);
+}
